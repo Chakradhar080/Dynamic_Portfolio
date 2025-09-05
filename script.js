@@ -660,7 +660,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const skillContainers = document.querySelectorAll('.skill-bar');
     skillContainers.forEach((container, index) => {
         // Set different progress values for different skills
-        const progressValues = ['90%', '85%', '80%', '75%', '70%', '65%'];
+        const progressValues = ['90%', '50%', '70%', '75%', '70%', '50%'];
         const value = progressValues[index % progressValues.length];
         container.setAttribute('data-progress', value);
         
