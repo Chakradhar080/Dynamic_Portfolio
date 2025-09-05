@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chakradhar Maduri - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- AI/ML/DL Theme Elements -->
+    <div class="ai-background"></div>
+    <div class="neural-network" id="neuralNetwork"></div>
+    <div class="matrix-rain" id="matrixRain"></div>
+    <div class="circuit-board"></div>
+    
+    <!-- Theme Toggle -->
+    <button id="themeToggle" class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+    
+    <!-- Scroll to top button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <!-- Hero Section -->
+    <header id="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <h1>CHAKRADHAR MADURI</h1>
+            <div class="typed-text-container">
+                <p id="typed-text"></p>
+            </div>
+            <p>B.TECH | CSE | Python Developer | AI & ML Enthusiast</p>
+            <div class="buttons">
+                <a href="RESUME.pdf" class="btn" download>Download Resume</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/chakradhar-maduri-474125252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Chakradhar080" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/heyy_its_chakri?igsh=MWx4Z3I3NTd3YXdlYg==" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="sticky-nav">
+        <button class="menu-toggle">☰</button>
+        <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#qualifications">Qualifications</a></li>
+            <li><a href="#work-experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#workshops">Workshops</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-container">
+            <img src="image.jpg" alt="Chakradhar" class="profile-pic">
+            <div class="about-description">
+                <h2>About Me</h2>
+                <p>Hi, I'm Chakradhar Maduri, currently pursuing my B.Tech in Computer Science Engineering. As an enthusiastic student with a strong interest in Artificial Intelligence (AI) and Machine Learning (ML), I am excited to apply my academic knowledge and skills to these rapidly evolving fields.</p>
+                <p>Throughout my studies, I have developed a solid foundation in computer science principles and gained exposure to various technologies. My fascination with AI and ML has grown as I explore how these technologies can be leveraged to address complex challenges and drive innovation. I am particularly interested in Predictive Analytics, Neural Networks and Deep Learning, Natural Language Processing (NLP), and Computer Vision.</p>
+                <p>In addition to my coursework, I actively engage in Online Courses, Workshops and Seminars, Student Projects, AI Communities, and Hackathons. These experiences keep me motivated and help me stay updated on the latest advancements in the field.</p>
+                <p>As I continue my studies, I am eager to gain practical experience and collaborate on projects related to AI and ML. I look forward to opportunities that will allow me to grow professionally and contribute to impactful solutions in the tech industry.</p>
+                <p>Feel free to connect with me on LinkedIn or reach out through my contact information to discuss opportunities, share insights, or collaborate on AI and ML projects!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qualifications Section -->
+    <section id="qualifications">
+        <h2>Qualifications</h2>
+        <div class="qualification-timeline">
+            <div class="qualification-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>B.Tech - Computer Science Engineering</h3>
+                    <p><strong>Malla Reddy Institute of Technology</strong></p>
+                    <p class="duration">2022-2026 (Pursuing)</p>
+                    <p>CGPA: 8.2</p>
+                </div>
+            </div>
+            <div class="qualification-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Intermediate (+2)</h3>
+                    <p><strong>Krishnaveni jr college</strong></p>
+                    <p class="duration">2020-2022</p>
+                    <p>Percentage(%): 88.7</p>
+                </div>
+            </div>
+            <div class="qualification-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>SSC (10TH)</h3>
+                    <p><strong>Montessori High School</strong></p>
+                    <p class="duration">2019-2020</p>
+                    <p>GPA: 10.0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="work-experience">
+        <h2>Work Experience</h2>
+        <div class="experience-item">
+            <h3>Python Developer Intern</h3>
+            <p><strong>Durbhasi Gurukulam Private Limited</strong></p>
+            <p>Duration: Sep 2025 - Present</p>
+            <p>As a Python Developer, my role involves designing and building backend applications, developing RESTful APIs, and working with databases such as MySQL for efficient data management. I focus on writing clean, scalable code, implementing authentication and security, and deploying applications using tools like Docker and Git to deliver reliable real-world solutions.</p>
+            <div class="experience-cert">
+                <img src="" alt="Currently working" class="certificate-thumb" onclick="maximizeImage(this)">
+            </div>
+        </div>
+        
+        <div class="experience-item">
+            <h3>Virtual Internship – Introduction to Data Science</h3>
+            <p><strong>Commonwealth Bank</strong></p>
+            <p>Duration: Aug 2025 - Aug 2025</p>
+            <p>- Demonstrated proficiency in creating data engineering pipelines to aggregate and extract valuable insights from datasets, optimizing data-driven decision-making.<br>
+            - Acquired skills in anonymizing personal data within datasets, ensuring compliance with data privacy regulations.<br>
+            - Proposed effective data analysis approaches, particularly related to social media, and demonstrated the ability to design well-structured databases for efficient information management.</p>
+            <div class="experience-cert">
+                <img src="CWB.png" alt="Commonwealth Bank Certificate" class="certificate-thumb" onclick="maximizeImage(this)">
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <h3>Virtual Internship Trainee – Data Visualization</h3>
+            <p><strong>Tata Group</strong></p>
+            <p>Duration: Apr 2025 - Apr 2025</p>
+            <p>Engaged in tasks focusing on data visualization techniques to empower business insights.​<br>
+            Developed skills in interpreting complex data and presenting it in a comprehensible manner to support decision-making processes.</p>
+            <div class="experience-cert">
+                <img src="TATA.png" alt="TATA Certificate" class="certificate-thumb" onclick="maximizeImage(this)">
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <h3>Virtual Internship – Data Analytics</h3>
+            <p><strong>Deloitte</strong></p>
+            <p>Duration: Feb 2025 - Feb 2025</p>
+            <p>Completed real-world tasks simulating data cleaning, analysis, and reporting for a client scenario.<br>
+            Gained exposure to data-driven decision-making processes and stakeholder communication.</p>
+            <div class="experience-cert">
+                <img src="Deloitte.png" alt="Deloitte Certificate" class="certificate-thumb" onclick="maximizeImage(this)">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-item">
+            <h3>AI Chatbot</h3>
+            <p>The Simple ChatBot project is a Python-based interactive chatbot application designed to provide real-time intelligent responses to user queries. It features a Streamlit frontend for an intuitive chat interface and integrates with OpenAI GPT to generate dynamic AI responses. The project follows a modular design, with separate modules for different AI bots (OpenAIBot, GeminiBot, GroqBot), ensuring scalability and maintainability. For projects requiring backend support, an optional FastAPI backend handles API requests, manages conversation flow, and allows easy integration of multiple AI providers. Sensitive information, such as API keys, is securely managed using environment variables with .env files. Through this project, users can experience seamless AI-driven conversation, while developers gain hands-on experience in AI integration, frontend development, and secure environment management.</p>
+            <a href="https://github.com/Chakradhar080/Simple_ChatBot">View My GitHub Project</a>
+        </div>
+
+        <div class="project-item">
+            <h3>SmartTask – End-to-End Task Management Application</h3>
+            <p>I developed a full-stack Task Management System using FastAPI (Python) for the backend, React.js for the frontend, and MySQL for data persistence. The application supports complete CRUD operations with secure JWT-based authentication, proper validation, and error handling. I designed and integrated a relational database schema with SQLAlchemy ORM, built an interactive React interface with protected routes, and containerized the entire system using Docker & Docker Compose. The project also includes API documentation via Swagger and Postman, making it easy to test and collaborate.</p>
+            <a href="https://github.com/Chakradhar080/SmartTask-End-to-End-Task-Management-Application.git">View My GitHub Project</a>
+        </div>
+        
+        <div class="project-item">
+            <h3>Blockchain-Based Certificate Verification System</h3>
+            <p>A secure and tamper-proof platform for issuing and verifying academic certificates using blockchain and SHA-256 hashing. Admins can issue certificates, while students can verify them independently through an interactive Tkinter GUI. This system ensures authenticity, reduces manual effort, and builds trust between institutions, students, and employers.</p>
+            <a href="https://github.com/Chakradhar080/Blockchain-Based-Certificate-Verification-System.git">View My GitHub Project</a>
+        </div>
+
+        <div class="project-item">
+            <h3>ECLAT Algorithm</h3>
+            <p>The ECLAT (Equivalence Class Transformation) algorithm identifies frequent itemsets by using a vertical data format where items are linked to their transaction lists. It intersects these transaction lists to find which item combinations appear together frequently. This depth-first search approach avoids generating many candidate itemsets, making it more efficient. However, it can be memory-intensive for large datasets and complex to implement. ECLAT is useful in market basket analysis and other pattern discovery tasks.</p>
+            <a href="https://github.com/Chakradhar080/ECLAT-Algorithm.git">View My GitHub Project</a>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certifications-grid">
+            <div class="certification-item">
+                <img src="DVP.png" alt="Certificate" class="certificate-thumb" onclick="maximizeImage(this)">
+                <h4>Data Visualization with Python | IBM</h4>
+                <p>I've successfully completed the "Data Visualization with Python" course, offered by IBM through Cognitive Class.
+                This course enhanced my skills in:<br>
+                - Creating insightful visualizations using Matplotlib, Seaborn, and Folium<br>
+                - Effectively communicating data-driven stories<br>
+                - Leveraging Python for real-world data visualization scenarios<br>
+                Data visualization is a crucial aspect of analytics and decision-making, and this certification marks another step in my data journey.</p>
+            </div>
+
+            <div class="certification-item">
+                <img src="DAP.png" alt="Certificate" class="certificate-thumb" onclick="maximizeImage(this)">
+                <h4>Data Analysis with Python | IBM</h4>
+                <p>I have successfully completed the Data Analysis with Python course, provided by IBM through Cognitive Class. This certification has enhanced my proficiency in Python-based data analysis, covering essential techniques such as data manipulation, visualization, and statistical analysis.</p>
+            </div>
+
+            <div class="certification-item">
+                <img src="TCS.png" alt="Certificate" class="certificate-thumb" onclick="maximizeImage(this)">
+                <h4>TCS iON Career Edge - Young Professional</h4>
+                <p>I have successfully completed the TCS iON Career Edge - Young Professional certification program. This comprehensive course has strengthened my expertise in communication skills, business etiquette, resume writing, interview techniques, and foundational IT and accounting skills, among other key professional competencies.
+                I extend my sincere gratitude to TCS iON for providing this valuable learning opportunity. I look forward to applying these skills in my professional journey and continuing to enhance my career growth.</p>
+            </div>
+
+            <div class="certification-item">
+                <img src="UP.png" alt="Certificate" class="certificate-thumb" onclick="maximizeImage(this)">
+                <h4>Python for Beginners In Depth (Udemy)</h4>
+                <p>Successfully completed a comprehensive introductory Python programming course, covering Python syntax, control structures, data types, file handling, and small projects. Built a strong foundation for advanced topics like data analysis, machine learning, and automation.</p>
+            </div>
+
+            <div class="certification-item">
+                <img src="python3.png" alt="Certificate" class="certificate-thumb" onclick="maximizeImage(this)">
+                <h4>Python3</h4>
+                <p>Completed a comprehensive Python3 programming course that covered fundamental and advanced topics, including data structures, algorithms, object-oriented programming, and libraries such as NumPy and Pandas. Acquired hands-on experience in writing efficient Python code, developing scripts, and solving real-world problems. This certification demonstrates a solid understanding of Python3 and its applications in various domains, including data analysis and software development.</p>
+            </div>
+
+            <div class="certification-item">
+                <img src="claude ai.png" alt="Certificate" class="certificate-thumb" onclick="maximizeImage(this)">
+                <h4>Claude AI</h4>
+                <p>I have successfully completed a comprehensive course in Claude AI, covering advanced concepts in artificial intelligence and machine learning. This certification demonstrates my ability to leverage Claude AI tools for developing and implementing intelligent solutions. The course included hands-on projects and practical applications, enhancing my skills in AI model training, data analysis, and problem-solving using Claude AI technologies.</p>
+            </div>
+
+            <div class="certification-item">
+                <img src="pe.png" alt="Certificate" class="certificate-thumb" onclick="maximizeImage(this)">
+                <h4>Prompt Engineering</h4>
+                <p>This certificate acknowledges the completion of a specialized course in Prompt Engineering. The course covered advanced techniques in crafting effective prompts for natural language processing models, including strategies for optimizing model responses and fine-tuning output for specific use cases. This certification demonstrates a solid understanding of prompt design principles and practical skills in leveraging language models for various applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="technical-skills">
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="python.png" alt="Python">
+                        </div>
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="java.png" alt="Java">
+                        </div>
+                        <span class="skill-name">Java</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="c.png" alt="C">
+                        </div>
+                        <span class="skill-name">C</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="html.png" alt="HTML">
+                        </div>
+                        <span class="skill-name">HTML</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="css.png" alt="CSS">
+                        </div>
+                        <span class="skill-name">CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="js.png" alt="JavaScript">
+                        </div>
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="soft-skills">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Communication</li>
+                    <li>Problem Solving</li>
+                    <li>Adaptability</li>
+                    <li>Time Management</li>
+                    <li>Team Work</li>
+                    <li>Innovative</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workshops Section -->
+    <section id="workshops">
+        <h2>Workshops & Hackathons</h2>
+        <div class="workshop-item">
+            <h3>Hack the verse Hackathon</h3>
+            <p>I participated in the "Hack the Verse" hackathon, where the challenge was to develop a website based on specific requirements provided by the hosts. This event focused on applying web development skills to build innovative and functional websites, adhering to the given guidelines and constraints. The experience enhanced my skills in problem-solving and creative design, as well as collaborating within a competitive and dynamic environment.</p>
+            <a href="hackathon.png" id="show-image-link">Certificate (participation)</a>
+            <a href="https://github.com/your-username/your-repository" target="_blank">View My GitHub Project</a>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests">
+        <h2>Interests & Hobbies</h2>
+        <ul>
+            <li>Artificial Intelligence (AI) & Machine Learning (ML)</li>
+            <li>Technology Trends</li>
+            <li>Coding Challenges</li>
+            <li>Traveling</li>
+            <li>Social Media</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:Chakradharmaduri28@gmail.com">Chakradharmaduri28@gmail.com</a></p>
+                <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/chakradhar-maduri-474125252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Chakradhar Maduri</a></p>
+                <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/Chakradhar080" target="_blank">Chakradhar080</a></p>
+                <p><i class="fas fa-phone"></i> Mobile: 8185007245</p>
+                <p><i class="fas fa-map-marker-alt"></i> Address: Hyderabad</p>
+            </div>
+            <div class="contact-form">
+                <div class="form-success"></div>
+                <div class="form-error"></div>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <div class="error-message" id="name-error">Please enter your name</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="error-message" id="email-error">Please enter your email address</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <div class="error-message" id="message-error">Please enter your message</div>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Chakradhar Maduri. All Rights Reserved.</p>
+        <p>Designed with ❤️ and ☕</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
